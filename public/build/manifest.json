@@ -1,0 +1,167 @@
+{
+  "_arrow-left-Czfd1XDz.js": {
+    "file": "assets/arrow-left-Czfd1XDz.js",
+    "name": "arrow-left",
+    "imports": [
+      "_createLucideIcon-5LDZ8RbA.js"
+    ]
+  },
+  "_camera-BnHHWp5g.js": {
+    "file": "assets/camera-BnHHWp5g.js",
+    "name": "camera",
+    "imports": [
+      "_createLucideIcon-5LDZ8RbA.js"
+    ]
+  },
+  "_circle-alert-CvxU05yO.js": {
+    "file": "assets/circle-alert-CvxU05yO.js",
+    "name": "circle-alert",
+    "imports": [
+      "_createLucideIcon-5LDZ8RbA.js"
+    ]
+  },
+  "_createLucideIcon-5LDZ8RbA.js": {
+    "file": "assets/createLucideIcon-5LDZ8RbA.js",
+    "name": "createLucideIcon",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "_house-BCh7UE3o.js": {
+    "file": "assets/house-BCh7UE3o.js",
+    "name": "house",
+    "imports": [
+      "resources/js/app.js",
+      "_createLucideIcon-5LDZ8RbA.js"
+    ]
+  },
+  "_sparkles-CQAyQqEk.js": {
+    "file": "assets/sparkles-CQAyQqEk.js",
+    "name": "sparkles",
+    "imports": [
+      "_createLucideIcon-5LDZ8RbA.js"
+    ]
+  },
+  "_sun-DrLQc_FD.js": {
+    "file": "assets/sun-DrLQc_FD.js",
+    "name": "sun",
+    "imports": [
+      "_createLucideIcon-5LDZ8RbA.js",
+      "resources/js/app.js"
+    ]
+  },
+  "_trash-2-DaBLE_aY.js": {
+    "file": "assets/trash-2-DaBLE_aY.js",
+    "name": "trash-2",
+    "imports": [
+      "_createLucideIcon-5LDZ8RbA.js"
+    ]
+  },
+  "_user-BzVxNbv4.js": {
+    "file": "assets/user-BzVxNbv4.js",
+    "name": "user",
+    "imports": [
+      "_createLucideIcon-5LDZ8RbA.js"
+    ]
+  },
+  "_zap-9Zsq_K24.js": {
+    "file": "assets/zap-9Zsq_K24.js",
+    "name": "zap",
+    "imports": [
+      "_createLucideIcon-5LDZ8RbA.js"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-D8xelaHR.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/pages/Checkout.vue",
+      "resources/js/pages/Home.vue",
+      "resources/js/pages/ProductRecommendations.vue",
+      "resources/js/pages/Results.vue",
+      "resources/js/pages/Scan.vue"
+    ],
+    "css": [
+      "assets/app-BHYIK22L.css"
+    ]
+  },
+  "resources/js/pages/Checkout.vue": {
+    "file": "assets/Checkout-CrgR5-i-.js",
+    "name": "Checkout",
+    "src": "resources/js/pages/Checkout.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_createLucideIcon-5LDZ8RbA.js",
+      "_sun-DrLQc_FD.js",
+      "resources/js/app.js",
+      "_trash-2-DaBLE_aY.js",
+      "_arrow-left-Czfd1XDz.js",
+      "_user-BzVxNbv4.js",
+      "_zap-9Zsq_K24.js"
+    ]
+  },
+  "resources/js/pages/Home.vue": {
+    "file": "assets/Home-UYSZk0P2.js",
+    "name": "Home",
+    "src": "resources/js/pages/Home.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_createLucideIcon-5LDZ8RbA.js",
+      "resources/js/app.js",
+      "_sparkles-CQAyQqEk.js",
+      "_camera-BnHHWp5g.js"
+    ]
+  },
+  "resources/js/pages/ProductRecommendations.vue": {
+    "file": "assets/ProductRecommendations-CH0KzWFK.js",
+    "name": "ProductRecommendations",
+    "src": "resources/js/pages/ProductRecommendations.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_createLucideIcon-5LDZ8RbA.js",
+      "_sun-DrLQc_FD.js",
+      "_house-BCh7UE3o.js",
+      "resources/js/app.js",
+      "_trash-2-DaBLE_aY.js",
+      "_circle-alert-CvxU05yO.js",
+      "_sparkles-CQAyQqEk.js",
+      "_arrow-left-Czfd1XDz.js",
+      "_zap-9Zsq_K24.js"
+    ],
+    "css": [
+      "assets/ProductRecommendations-DWPN0RSU.css"
+    ]
+  },
+  "resources/js/pages/Results.vue": {
+    "file": "assets/Results-Bxi7MvZ8.js",
+    "name": "Results",
+    "src": "resources/js/pages/Results.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_createLucideIcon-5LDZ8RbA.js",
+      "_house-BCh7UE3o.js",
+      "_sun-DrLQc_FD.js",
+      "_sparkles-CQAyQqEk.js",
+      "_circle-alert-CvxU05yO.js",
+      "_zap-9Zsq_K24.js"
+    ]
+  },
+  "resources/js/pages/Scan.vue": {
+    "file": "assets/Scan-urgz3YLG.js",
+    "name": "Scan",
+    "src": "resources/js/pages/Scan.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_createLucideIcon-5LDZ8RbA.js",
+      "_sun-DrLQc_FD.js",
+      "_arrow-left-Czfd1XDz.js",
+      "_user-BzVxNbv4.js",
+      "_camera-BnHHWp5g.js",
+      "_circle-alert-CvxU05yO.js"
+    ]
+  }
+}
